@@ -1,95 +1,46 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="mx-auto max-w-screen-xl">
+      <h1 className="text-4xl font-serif text-center mt-16 mb-24">Tipos de Guinchos</h1>
+
+      <div className="flex justify-center space-x-8">
+        <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+          <figure className="flex flex-col items-center">
+            <Image src="/img/guinchoasadeltapesado.jpg" alt="GuinchoAsaDeltaPesado" width={500} height={500} />
+            <figcaption className="text-center font-thin text-lg">Guincho asa delta pesado</figcaption>
+          </figure>
+        </div>
+
+        <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+          <figure className="flex flex-col items-center">
+            <Image src="/img/guinchocegonha.jpg" alt="GuinchoCegonha" width={500} height={500} />
+            <figcaption className="text-center font-thin text-lg">Guincho Cegonha</figcaption>
+          </figure>
+        </div>
+
+        <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+          <figure className="flex flex-col items-center">
+            <Image src="/img/guinchoreboque.jpg" alt="GuinchoReboque" width={500} height={500} />
+            <figcaption className="text-center font-thin text-lg">Guincho reboque</figcaption>
+          </figure>
         </div>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="flex justify-end mt-4">
+        
+        <Link href="http://localhost:8080/seriesapi/webapi/guincho">
+          <div className="border border-blue-500 py-2 px-10 rounded-full text-blue-500 hover:bg-blue-500 hover:text-white cursor-pointer">
+            Ver Detalhes
+          </div>
+        </Link>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </div>
+  );
 }
+
+    
+  
+
