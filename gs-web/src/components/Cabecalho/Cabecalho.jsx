@@ -9,16 +9,16 @@ export default function Cabecalho() {
         </p>
         <nav className="cabecalhoo flex items-center">
           <p className="mx-0 text-lg font-serif hover:text-blue-500">
-            <Link href="/pagesguincho/home">Home</Link>
+            <Link href="/previnatech/home">Home</Link>
           </p>
           <p className="mx-0 text-lg font-serif hover:text-blue-500"> 
-            <Link href="/pagesguincho/chatbot">Formulário</Link>
+            <Link href="/previnatech/formulario">Formulário</Link>
           </p>
           <p className="mx-0 text-lg font-serif hover:text-blue-500"> 
-            <Link href="/pagesguincho/quemsomos">Integrantes</Link>
+            <Link href="/previnatech/integrantes">Integrantes</Link>
           </p>
           <p className="mx-0 text-lg font-serif hover:text-blue-500"> 
-            <Link href="/pagesguincho/apipy">Hospitais</Link>
+            <Link href="/previnatech/hospitais">Hospitais</Link>
           </p>
          
         </nav>
