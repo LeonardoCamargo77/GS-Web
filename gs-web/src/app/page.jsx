@@ -73,7 +73,7 @@ export default function Home() {
         2. Pratique atividades físicas
       </h2>
 
-      <figure className="flex flex-col items-left">
+      <figure className="flex flex-col items-left ">
         <Image
           src="/img/atividadesfisicas.png"  
           alt="Atividades Fisicas"
@@ -169,7 +169,7 @@ Entre as consequências que têm ligação direta com as doenças cardiovascular
       6. Faça acompanhamento médico
       </h2>
 
-      <figure className="flex flex-col items-left">
+      <figure className="flex flex-col items-left mb-2 overflow-hidden rounded-xl">
         <Image
           src="/img/acompanhamento.png" 
           alt="AcompanhamentoMedico"
