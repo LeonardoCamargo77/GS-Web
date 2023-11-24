@@ -16,9 +16,6 @@ export default function Cabecalho() {
             <Link href="/previnatech/formulario">Formulário</Link>
           </p>
           <p className="mx-0 text-lg font-semibold hover:bg-orange-600 rounded"> 
-            <Link href="/previnatech/integrantes">Integrantes</Link>
-          </p>
-          <p className="mx-0 text-lg font-semibold hover:bg-orange-600 rounded"> 
             <Link href="/previnatech/hospitais">Hospitais</Link>
           </p>
         </nav>
