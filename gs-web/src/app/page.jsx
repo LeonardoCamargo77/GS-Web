@@ -118,70 +118,74 @@ A sugestão para controlar o peso, ou mesmo eliminar a obesidade, é unir as dic
       </figure>
 
       <h2 className="text-2xl font-bold text-left mt-16 mb-4">
-        3. Controle o peso
+      4. Evite cigarro e consumo de bebidas alcoólicas
       </h2>
 
       <figure className="flex flex-col items-left">
         <Image
-          src="/img/balanca.avif" 
-          alt="Balança"
+          src="/img/naodrogas.jpg" 
+          alt="NãoDrogas"
           width={500}
           height={500}
         />
         <figcaption className="text-left font-arial text-lg mb-4">
-        Consequência da má alimentação e da falta de atividades físicas, estar acima do peso contribui para o desencadeamento de diversas doenças cardiovasculares, por exemplo, hipertensão e colesterol alto.
+        Além de causar doenças como hepatite, cirrose hepática, câncer no esôfago, faringe, fígado, entre outros, o álcool contribui para o desencadeamento de doenças cardiovasculares, a exemplo do infarto e da insuficiência cardíaca. 
 
-A sugestão para controlar o peso, ou mesmo eliminar a obesidade, é unir as dicas 1 e 2, ou seja, melhorar a alimentação e sair do sedentarismo.
+O motivo é que a substância causa danos às células do coração, além de estar associada a arritmias e à obstrução das artérias.
+
+Já o tabagismo, além de câncer de pulmão e outros tipos, contribui para o estreitamento das artérias e para a elevação da pressão arterial. Somado a isso, o dióxido de carbono do cigarro obriga o coração a trabalhar mais para gerar níveis maiores de oxigênio para o organismo. 
         </figcaption>
-        <Link href="https://semprebem.paguemenos.com.br/calculadora-de-IMC?gclid=CjwKCAiAjfyqBhAsEiwA-UdzJLNm7LAAYCOFcwRimxDe0LYZQw5-U4cXG5uHphgLmA6l6yinTp18hRoCmlcQAvD_BwE">
+        <Link href="https://lapacdourados.com.br/diga-nao-ao-cigarro/">
           <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
-           Calcule seu Índice de Massa Corporal 
+           Combata o tabagismo!
           </div>
         </Link>
       </figure>
 
       <h2 className="text-2xl font-bold text-left mt-16 mb-4">
-        3. Controle o peso
+      5. Procure maneiras de reduzir o estresse
       </h2>
 
       <figure className="flex flex-col items-left">
         <Image
-          src="/img/balanca.avif" 
-          alt="Balança"
+          src="/img/estresse.png" 
+          alt="Estresse"
           width={500}
           height={500}
         />
         <figcaption className="text-left font-arial text-lg mb-4">
-        Consequência da má alimentação e da falta de atividades físicas, estar acima do peso contribui para o desencadeamento de diversas doenças cardiovasculares, por exemplo, hipertensão e colesterol alto.
+        Com a rotina cada vez mais agitada, chega a ser difícil fugir de situações de estresse, por menores que elas sejam. Mas é importante saber que esse quadro provoca uma série de alterações no organismo que podem contribuir para o surgimento de diversas patologias, por isso, precisa ser controlado.
 
-A sugestão para controlar o peso, ou mesmo eliminar a obesidade, é unir as dicas 1 e 2, ou seja, melhorar a alimentação e sair do sedentarismo.
+Entre as consequências que têm ligação direta com as doenças cardiovasculares está o aumento da pressão arterial, decorrente da descarga de adrenalina disparada pelas glândulas suprarrenais quando estamos em condições estressantes.
         </figcaption>
-        <Link href="https://semprebem.paguemenos.com.br/calculadora-de-IMC?gclid=CjwKCAiAjfyqBhAsEiwA-UdzJLNm7LAAYCOFcwRimxDe0LYZQw5-U4cXG5uHphgLmA6l6yinTp18hRoCmlcQAvD_BwE">
+        <Link href="https://cmosdrake.com.br/blog/estresse/">
           <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
-           Calcule seu Índice de Massa Corporal 
+          Entenda como o estresse influencia nos problemas de coração.
           </div>
         </Link>
       </figure>
 
       <h2 className="text-2xl font-bold text-left mt-16 mb-4">
-        3. Controle o peso
+      6. Faça acompanhamento médico
       </h2>
 
       <figure className="flex flex-col items-left">
         <Image
-          src="/img/balanca.avif" 
-          alt="Balança"
+          src="/img/acompanhamento.png" 
+          alt="AcompanhamentoMedico"
           width={500}
           height={500}
         />
         <figcaption className="text-left font-arial text-lg mb-4">
-        Consequência da má alimentação e da falta de atividades físicas, estar acima do peso contribui para o desencadeamento de diversas doenças cardiovasculares, por exemplo, hipertensão e colesterol alto.
+        No começo deste texto falamos que algumas doenças cardiovasculares são silenciosas, ou seja, só diagnosticadas quando a pessoa passa por algum tipo de exame clínico. Justamente por esse motivo é tão importante ter acompanhamento médico periódico.
 
-A sugestão para controlar o peso, ou mesmo eliminar a obesidade, é unir as dicas 1 e 2, ou seja, melhorar a alimentação e sair do sedentarismo.
+Testes sanguíneos para verificar taxas de colesterol, nível de glicose, de triglicérides e de vitaminas, são apenas alguns exemplos de exames laboratoriais que o médico pode solicitar. Além desses, o teste ergométrico, ou de esforço, avalia o sistema cardiovascular e traz um panorama completo da saúde do coração.
+
+Além do check-up anual, é fundamental também controlar a pressão arterial com uma periodicidade maior, principalmente quando se tem histórico de doenças cardiovasculares na família — para quem é hipertenso, a recomendação é realizar a verificação a cada 3 meses, ou de acordo com a orientação do cardiologista.
         </figcaption>
-        <Link href="https://semprebem.paguemenos.com.br/calculadora-de-IMC?gclid=CjwKCAiAjfyqBhAsEiwA-UdzJLNm7LAAYCOFcwRimxDe0LYZQw5-U4cXG5uHphgLmA6l6yinTp18hRoCmlcQAvD_BwE">
+        <Link href="/previnatech/hospitais">
           <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
-           Calcule seu Índice de Massa Corporal 
+           Veja as unidades hospitalares do PrevinaTech!
           </div>
         </Link>
       </figure>
