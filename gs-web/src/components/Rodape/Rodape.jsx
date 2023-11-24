@@ -14,10 +14,10 @@ export default function Rodape() {
           <a href="https://github.com/LeonardoCamargo77/GS-Web" target="_blank" rel="noopener noreferrer" className="text-black">
             <img src="/img/git.png" alt="GitHub" className="h-10 w-10" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-black">
-            <img src="/img/faceazul.webp" alt="Facebook" className="h-10 w-10" />
+          <a href="https://www.fiap.com.br/" target="_blank" rel="noopener noreferrer" className="text-black">
+            <img src="/img/fiap.png" alt="Fiap" className="h-10 w-10" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-black">
+          <a href="https://twitter.com/FIAP" target="_blank" rel="noopener noreferrer" className="text-black">
             <img src="/img/twitter.png" alt="Twitter" className="h-10 w-10" />
           </a>
           <a href="https://gs-web-nu.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black">
