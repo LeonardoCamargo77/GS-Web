@@ -65,14 +65,14 @@ export default function Home() {
           </div>
 
           <div className="mx-auto max-w-screen-xl mb-8">
-            <h1 className="text-4xl font-serif text-center mt-16 mb-4">Link do repositório:</h1>
+            <h1 className="text-4xl font-serif text-center mt-16 mb-4">Plataformas de acesso:</h1>
 
             <Link href="https://github.com/LeonardoCamargo77/sprint4.git">
               <div className="mb-4 text-center border border-orange-600 py-2 px-6 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer">
                 Repositório
               </div>
             </Link>
-            <Link href="https://sprint4-vert.vercel.app/">
+            <Link href="https://gs-web-nu.vercel.app/">
               <div className="text-center border border-orange-600 py-2 px-6 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer mb-4">
                 Vercel
               </div>

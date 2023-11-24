@@ -13,7 +13,7 @@ export default function Rodape() {
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-black">
             <img src="/img/twitter.png" alt="Twitter" className="h-10 w-10" />
           </a>
-          <a href="https://sprint4-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black">
+          <a href="https://gs-web-nu.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black">
             <img src="/img/vercel.png" alt="Vercel" className="h-10 w-10" />
           </a>
         </div>
