@@ -67,7 +67,7 @@ export default function Home() {
           <div className="mx-auto max-w-screen-xl mb-8">
             <h1 className="text-4xl font-serif text-center mt-16 mb-4">Plataformas de acesso:</h1>
 
-            <Link href="https://github.com/LeonardoCamargo77/sprint4.git">
+            <Link href="https://github.com/LeonardoCamargo77/GS-Web">
               <div className="mb-4 text-center border border-orange-600 py-2 px-6 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer">
                 Repositório
               </div>

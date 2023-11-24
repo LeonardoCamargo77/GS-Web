@@ -4,7 +4,7 @@ export default function Rodape() {
         <p className="ml-4 text-white font-medium">Todos os direitos reservados</p>
   
         <div className="flex items-center space-x-4 mr-4">
-          <a href="https://github.com/LeonardoCamargo77/sprint4.git" target="_blank" rel="noopener noreferrer" className="text-black">
+          <a href="https://github.com/LeonardoCamargo77/GS-Web" target="_blank" rel="noopener noreferrer" className="text-black">
             <img src="/img/git.png" alt="GitHub" className="h-10 w-10" />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-black">
