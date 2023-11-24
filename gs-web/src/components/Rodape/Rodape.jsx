@@ -1,7 +1,11 @@
 export default function Rodape() {
     return (
       <footer className="w-full bg-gray-800 h-20 flex items-center justify-between">
-        <p className="ml-4 text-white font-medium">Todos os direitos reservados</p>
+        <p className="ml-4 text-white font-semibold">Leonardo Lucena-RM552537</p>
+        <p className="ml-4 text-white font-semibold">Leonardo Lucena-RM552537</p>
+        <p className="ml-4 text-white font-semibold">Leonardo Lucena-RM552537</p>
+        <p className="ml-4 text-white font-semibold">Leonardo Lucena-RM552537</p>
+        <p className="ml-4 text-white font-semibold">Leonardo Lucena-RM552537</p>
   
         <div className="flex items-center space-x-4 mr-4">
           <a href="https://github.com/LeonardoCamargo77/GS-Web" target="_blank" rel="noopener noreferrer" className="text-black">
