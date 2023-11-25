@@ -7,21 +7,32 @@ export default function Hospitais() {
       <h1 className="text-5xl font-serif text-center mt-16 mb-24">Hospitais</h1>
 
       <div className="flex justify-center space-x-8">
-          <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+        {/* Primeira Unidade */}
+        <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
           <figure className="flex flex-col items-center">
             <Image src="/img/NotreDame.jpg" alt="NotreDame" width={500} height={500} />
             <figcaption className="text-center font-semibold text-lg">Unidade - São Bernardo do Campo </figcaption>
-
           </figure>
-          
-        </div>
+          <Link href="https://www.gndi.com.br/unidades/hospital-intermedica-abc">
+            <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
+              Ver Detalhes
+            </div>
+          </Link>
         </div>
 
-     
+        {/* Segunda Unidade */}
+        <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+          <figure className="flex flex-col items-center">
+            <Image src="/img/NotreDame.jpg" alt="NotreDame" width={500} height={500} />
+            <figcaption className="text-center font-semibold text-lg">Unidade - São Bernardo do Campo </figcaption>
+          </figure>
+          <Link href="https://www.gndi.com.br/unidades/hospital-intermedica-abc">
+            <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
+              Ver Detalhes
+            </div>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
-
-    
-  
-
