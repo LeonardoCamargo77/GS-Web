@@ -1,4 +1,4 @@
-GLOBAL SOLUTION 2023
+GLOBAL SOLUTION 2023 - 
 
 Integrantes do grupo:
 Ana Paula - RM552513
