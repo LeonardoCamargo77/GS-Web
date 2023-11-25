@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="bg-orange-600 font-sans w-96 h-35 p-4 rounded-lg mb-4">
         <h1 className="text-center text-6xl text-white font-black"> - ERROR - 404</h1>
-        <p className="text-center text-white text-3xl">Página não encontrada!</p>
+        <p className="text-center text-white text-3xl">Rota não encontrada!</p>
         <div className="mb-4 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
         <figure className="flex flex-col items-center">
           <Image src="/img/cardiograma.avif" alt="Cardiograma" width={400} height={400} />
