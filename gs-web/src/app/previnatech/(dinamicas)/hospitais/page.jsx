@@ -7,7 +7,7 @@ export default function Hospitais() {
       <h1 className="text-5xl font-serif text-center mt-16 mb-24">Unidades Hospitalares</h1>
 
       
-      <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+      <div className="mb-2 overflow-hidden rounded-xl ">
         <figure className="flex flex-col items-center">
           <Image src="/img/NotreDame.jpg" alt="NotreDame" width={800} height={800} />
           <figcaption className="text-center font-semibold text-lg">Unidade - São Bernardo do Campo </figcaption>
