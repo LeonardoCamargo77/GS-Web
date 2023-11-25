@@ -59,7 +59,7 @@ export default function Hospitais() {
 
       <div className="mb-2 overflow-hidden rounded-xl">
       <h1 className="text-3xl font-semibold text-center mt-16 mb-24">Confira os médicos renomados das unidades hospitalares ao clicar no botão!</h1>
-        <Link href="http://localhost:8080/previnatech/webapi/medico">
+        <Link href="http://localhost:8080/previnatech/webapi/hospital">
           <div className="border border-orange-600 py-2 px-10 rounded-full text-black hover:bg-orange-600 hover:text-white cursor-pointer text-center">
             Clique Aqui
           </div>
