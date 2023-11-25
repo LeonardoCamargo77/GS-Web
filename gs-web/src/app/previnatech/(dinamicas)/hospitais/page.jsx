@@ -32,7 +32,7 @@ export default function Hospitais() {
       </div>
 
       
-      <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+      <div className="mb-2 overflow-hidden rounded-xl">
         <figure className="flex flex-col items-center">
           <Image src="/img/NotreDame3.jpg" alt="NotreDame" width={800} height={800} />
           <figcaption className="text-center font-semibold text-lg">Unidade - Santo André   </figcaption>
@@ -45,7 +45,7 @@ export default function Hospitais() {
       </div>
 
     
-      <div className="mb-2 overflow-hidden rounded-xl transform hover:rotate-3 transition-transform duration-300">
+      <div className="mb-2 overflow-hidden rounded-xl">
         <figure className="flex flex-col items-center">
           <Image src="/img/NotreDame4.jpg" alt="NotreDame" width={800} height={800} />
           <figcaption className="text-center font-semibold text-lg">Unidade - Centro Clínico Jundiaí </figcaption>
