@@ -12,12 +12,15 @@ export default function Cabecalho() {
           <p className="mx-0 text-xl font-semibold hover:bg-orange-600 rounded">
             <Link href="/previnatech/home">Home</Link>
           </p>
-          <p className="mx-0 text-xl font-semibold hover:bg-orange-600 rounded"> 
-            <Link href="/previnatech/formulario">Formulário</Link>
-          </p>
+
           <p className="mx-0 text-xl font-semibold hover:bg-orange-600 rounded"> 
             <Link href="/previnatech/hospitais">Hospitais</Link>
           </p>
+          
+          <p className="mx-0 text-xl font-semibold hover:bg-orange-600 rounded"> 
+            <Link href="/previnatech/formulario">Funcionários</Link>
+          </p>
+         
         </nav>
       </header>
     </div>
