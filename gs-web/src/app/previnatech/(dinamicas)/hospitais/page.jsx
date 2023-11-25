@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hospitais() {
   return (
     <div className="mx-auto max-w-screen-xl space-y-8 mb-8">
-      <h1 className="text-5xl font-serif text-center mt-16 mb-24">Unidades Hospitalares</h1>
+      <h1 className="text-5xl font-serif text-center mt-16 mb-24">Unidades Hospitalares </h1>
 
       
       <div className="mb-2 overflow-hidden rounded-xl ">
